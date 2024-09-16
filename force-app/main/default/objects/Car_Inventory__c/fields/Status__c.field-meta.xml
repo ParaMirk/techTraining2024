@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>The status of the car (e.g. Available Soon)</description>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Available Soon</fullName>
+                <default>false</default>
+                <label>Available Soon</label>
+            </value>
+            <value>
+                <fullName>Discontinued</fullName>
+                <default>false</default>
+                <label>Discontinued</label>
+            </value>
+            <value>
+                <fullName>Limited Edtion</fullName>
+                <default>false</default>
+                <label>Limited Edtion</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
