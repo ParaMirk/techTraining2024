@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skills__c</fullName>
+    <externalId>false</externalId>
+    <label>Skills</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dependent on Category of skill</fullName>
+                <default>false</default>
+                <label>Dependent on Category of skill</label>
+            </value>
+            <value>
+                <fullName>→For Soft Skill enter any 4 skills like Leadership, Decision-Making, Empathy etc</fullName>
+                <default>false</default>
+                <label>→For Soft Skill enter any 4 skills like Leadership, Decision-Making, Empathy etc</label>
+            </value>
+            <value>
+                <fullName>→ technical enter any 4 tech stacks Java, C++, HTML, etc</fullName>
+                <default>false</default>
+                <label>→ technical enter any 4 tech stacks Java, C++, HTML, etc</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

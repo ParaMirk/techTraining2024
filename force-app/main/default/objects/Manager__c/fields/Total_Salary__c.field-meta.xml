@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Salary__c</fullName>
+    <description>Sum of the salaries of 
+the Developers which 
+reports to this 
+Manager</description>
+    <externalId>false</externalId>
+    <label>Total Salary</label>
+    <summarizedField>Developer__c.Salary__c</summarizedField>
+    <summaryForeignKey>Developer__c.Reporting_Manager__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

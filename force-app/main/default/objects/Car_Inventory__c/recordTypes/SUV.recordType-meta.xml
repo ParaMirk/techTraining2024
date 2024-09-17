@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SUV</fullName>
+    <active>true</active>
+    <description>SUV features from off-road vehicles, such as raised ground clearance</description>
+    <label>SUV</label>
+    <picklistValues>
+        <picklist>Condition__c</picklist>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Used</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Available Soon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discontinued</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited Edtion</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

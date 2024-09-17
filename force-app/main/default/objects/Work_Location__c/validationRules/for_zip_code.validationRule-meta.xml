@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>for_zip_code</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(  ISNUMBER(ZipCode__c)  )   ||  (LEN(ZipCode__c )&lt;&gt;5)</errorConditionFormula>
+    <errorDisplayField>ZipCode__c</errorDisplayField>
+    <errorMessage>Zip Code must be in 5-digit format (0
+9)</errorMessage>
+</ValidationRule>
